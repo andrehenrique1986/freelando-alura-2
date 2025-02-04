@@ -16,6 +16,7 @@ import { ListaSupensa } from "../components/ListaSuspensa/ListaSuspensa";
 import { ProvedorTema } from "../components/ProvedorTema/ProvedorTema";
 import { Rodape } from "../components/Rodape/Rodape";
 import { Tipografia } from "../components/Tipografia/Tipografia";
+import LayoutBase from "./LayoutBase";
 
 const estadosBrasileiros = [
   { "text": "Acre", "value": "AC" },
