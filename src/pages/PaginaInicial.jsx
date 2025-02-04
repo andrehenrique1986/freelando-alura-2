@@ -1,21 +1,21 @@
 import { Col, Container, Row } from "react-grid-system";
-import { Botao } from "../componentes/Botao/Botao";
-import { Cabecalho } from "../componentes/Cabecalho/Cabecalho";
-import { CampoTexto } from "../componentes/CampoTexto/CampoTexto";
-import { Card } from "../componentes/Card/Card";
-import { Estilos } from "../componentes/EstilosGlobais/Estilos";
-import { FreelandoLogo } from "../componentes/Icones/FreelandoLogo";
-import { IconeInstagram } from "../componentes/Icones/IconeInstagram";
-import { IconeTwitch } from "../componentes/Icones/IconeTwitch";
-import { IconeTwitter } from "../componentes/Icones/IconeTwitter";
-import { IconeWhatsApp } from "../componentes/Icones/IconeWhatsApp";
-import { Link } from "../componentes/Link/Link";
-import { ItemListaInline } from "../componentes/Lista/ItemListaInline";
-import { ListaInline } from "../componentes/Lista/ListaInline";
-import { ListaSupensa } from "../componentes/ListaSuspensa/ListaSuspensa";
-import { ProvedorTema } from "../componentes/ProvedorTema/ProvedorTema";
-import { Rodape } from "../componentes/Rodape/Rodape";
-import { Tipografia } from "../componentes/Tipografia/Tipografia";
+import { Botao } from "../components/Botao/Botao";
+import { Cabecalho } from "../components/Cabecalho/Cabecalho";
+import { CampoTexto } from "../components/CampoTexto/CampoTexto";
+import { Card } from "../components/Card/Card";
+import { Estilos } from "../components/EstilosGlobais/Estilos";
+import { FreelandoLogo } from "../components/Icones/FreelandoLogo";
+import { IconeInstagram } from "../components/Icones/IconeInstagram";
+import { IconeTwitch } from "../components/Icones/IconeTwitch";
+import { IconeTwitter } from "../components/Icones/IconeTwitter";
+import { IconeWhatsApp } from "../components/Icones/IconeWhatsApp";
+import { Link } from "../components/Link/Link";
+import { ItemListaInline } from "../components/Lista/ItemListaInline";
+import { ListaInline } from "../components/Lista/ListaInline";
+import { ListaSupensa } from "../components/ListaSuspensa/ListaSuspensa";
+import { ProvedorTema } from "../components/ProvedorTema/ProvedorTema";
+import { Rodape } from "../components/Rodape/Rodape";
+import { Tipografia } from "../components/Tipografia/Tipografia";
 
 const estadosBrasileiros = [
   { "text": "Acre", "value": "AC" },
