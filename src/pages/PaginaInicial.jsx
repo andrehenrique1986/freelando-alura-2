@@ -9,14 +9,14 @@ import { IconeInstagram } from "../components/Icones/IconeInstagram";
 import { IconeTwitch } from "../components/Icones/IconeTwitch";
 import { IconeTwitter } from "../components/Icones/IconeTwitter";
 import { IconeWhatsApp } from "../components/Icones/IconeWhatsApp";
-import { Link } from "../components/Link/Link";
 import { ItemListaInline } from "../components/Lista/ItemListaInline";
 import { ListaInline } from "../components/Lista/ListaInline";
 import { ListaSupensa } from "../components/ListaSuspensa/ListaSuspensa";
 import { ProvedorTema } from "../components/ProvedorTema/ProvedorTema";
 import { Rodape } from "../components/Rodape/Rodape";
 import { Tipografia } from "../components/Tipografia/Tipografia";
-import LayoutBase from "./LayoutBase";
+import styled from "@emotion/styled";
+
 
 const estadosBrasileiros = [
   { "text": "Acre", "value": "AC" },
@@ -48,6 +48,11 @@ const estadosBrasileiros = [
   { "text": "Tocantins", "value": "TO" }
 ]
 
+const LinkLogin = styled.Link`
+  text-decoration: none;
+  color: ${props => props.theme.cores.secundarias.a};
+`;
+
 const PaginaInicial = () => {
   return (
     <ProvedorTema>
@@ -59,7 +64,7 @@ const PaginaInicial = () => {
               <FreelandoLogo />
             </Col>
             <Col style={{ textAlign: 'right' }}>
-              <Link>Login</Link>
+              <LinkLogin>Login</LinkLogin>
             </Col>
           </Row>
         </Container>

@@ -4,9 +4,12 @@ import cliente from '../../assets/imagens/cliente.png';
 import freela from '../../assets/imagens/freela.png';
 import { Link } from '../../components/Link/Link';
 
+import { Link as RouterLink } from 'react-router-dom';
+
+
 const SelecaoCliente = () => {
     return (
-        <>
+        <div style={{ textAlign: "center" }}>
          <Tipografia variante="h1" componente="h1">
             Crie seu cadastro
         </Tipografia>  
@@ -14,20 +17,22 @@ const SelecaoCliente = () => {
           Como podemos te ajudar?
         </Tipografia> 
         <Row>
-            <Col md={6} sm={12} style={{ textAlign: "center" }}>
+            <Col md={6} sm={12}>
+             <RouterLink to="interesses">
                 <img src={cliente} alt=""/>
                 <Tipografia variante="body" componente="body">
                   Sou cliente e preciso de um freela!
                 </Tipografia>
+             </RouterLink>
             </Col>
-            <Col md={6} sm={12} style={{ textAlign: "center" }}>
+            <Col md={6} sm={12}>
                 <img src={freela} alt=""/>
                 <Tipografia variante="body" componente="body" >
                   Sou freela e preciso de um cliente!
                 </Tipografia>
             </Col>
         </Row>
-        <div style={{ textAlign: "center" }}>
+        <div>
             <Tipografia variante="body2" componente="body2">
             Já tem conta?
             </Tipografia>
@@ -35,7 +40,7 @@ const SelecaoCliente = () => {
                 <Link variante="secundaria">Faça login!</Link>
             </p>
         </div>
-        </>
+        </div>
     )
 }
 
